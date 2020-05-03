@@ -1,0 +1,24 @@
+{
+    "Header": {
+        "Comment": "All values are metric (mm)",
+        "CreationDate": "2020-04-19T03:44:48Z",
+        "GenerationSoftware": {
+            "Application": "EAGLE",
+            "Vendor": "Autodesk",
+            "Version": "9.5.2"
+        },
+        "Part": "Single"
+    },
+    "Overall": {
+        "BoardThickness": 1.57,
+        "LayerNumber": 2,
+        "Name": {
+            "ProjectId": "Prototype1"
+        },
+        "Owner": "Andrew Brown <anbr7881@colorado.edu>",
+        "Size": {
+            "X": 82.804,
+            "Y": 49.9999
+        }
+    }
+}

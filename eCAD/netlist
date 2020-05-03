@@ -1,0 +1,92 @@
+Netlist
+
+Exported from Prototype1.brd at 4/18/2020 8:43 PM
+
+EAGLE Version 9.5.2 Copyright (c) 1988-2019 Autodesk, Inc.
+
+Net      Part                Pad
+
+3V3      PHOTON              24
+
+5V       C1                  +
+         I2C                 J1.1
+         PHOTON              1
+         PRESSURE_TRANSDUCER 3
+
+DATA     C2                  +
+         C3                  +
+         C4                  +
+         R2                  1
+         R3                  1
+
+GND      C1                  -
+         C2                  -
+         C3                  -
+         C4                  -
+         I2C                 J1.4
+         PHOTON              2
+         PHOTON              21
+         PRESSURE_TRANSDUCER 2
+         R1                  2
+
+N$1      PHOTON              7
+         R1                  1
+         R2                  2
+
+N$3      I2C                 J2.14
+         I2C                 J2.4
+         LCD_16X2            14
+         LCD_16X2            4
+
+N$4      I2C                 J2.15
+         I2C                 J2.5
+         LCD_16X2            15
+         LCD_16X2            5
+
+N$5      I2C                 J2.3
+         LCD_16X2            3
+
+N$6      I2C                 J2.7
+         LCD_16X2            7
+
+N$7      I2C                 J2.8
+         LCD_16X2            8
+
+N$8      I2C                 J2.9
+         LCD_16X2            9
+
+N$9      I2C                 J2.10
+         LCD_16X2            10
+
+N$10     I2C                 J2.11
+         LCD_16X2            11
+
+N$11     I2C                 J2.12
+         LCD_16X2            12
+
+N$12     I2C                 J2.13
+         LCD_16X2            13
+
+N$13     I2C                 J2.16
+         LCD_16X2            16
+
+N$14     I2C                 J2.6
+         LCD_16X2            6
+
+N$15     I2C                 J1.2
+         PHOTON              13
+
+N$17     I2C                 J1.3
+         PHOTON              14
+
+N$18     PRESSURE_TRANSDUCER 1
+         R3                  2
+
+VBAT     PHOTON              22
+
+VDD      I2C                 J2.2
+         LCD_16X2            2
+
+VSS      I2C                 J2.1
+         LCD_16X2            1
+
