@@ -78,6 +78,7 @@
 ///////////////////////////////////////
 
 void setup() {
+    Serial.begin(115200);
 
     // Initialize various necessities
     pinMode(SENSORPIN, INPUT);                      // Define the analog pin as an input
@@ -104,6 +105,7 @@ void setup() {
 
      // Store Standard Deviation of Array
      stdev = getStdev(recentData, numData, mean);
+     Serial.print("Done with calibration");
 
 }
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
