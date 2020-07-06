@@ -12,7 +12,7 @@
  * -> Attempts to minimize number of times the pump is turned on/off to extend pump useful life.
  * -> Provides override on/off functions for Andre via the Particle.io app.
  *
- *      *******PLEASE SEE _____________.INO FOR THE PUMP CONTROL PROGRAM*******
+ *      *******PLEASE SEE PUMPCONTROL.INO FOR THE PUMP CONTROL PROGRAM*******
  *
  */
 
